@@ -11,171 +11,174 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+      <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
     />
   </head>
 
-  <body id="body">
+  <body class="container""> 
     <header id="header">
-      <nav>
-        <div>
+      <nav> 
+        <ul class="menu">
           <a class="title-1" style="font-family: Raleway" href="#">WebStudio</a>
-        </div>
 
-        <ul id="links-top">
-          <li><a href="#" class="link1">Estudio</a></li>
-          <li><a href="portfolio.html" class="link2">Portafolio</a></li>
-          <li><a href="#" class="link3">Contactos</a></li>
+          <li class="link_1"><a href="#" id="link_style">Estudio</a></li>
+          <li class="link_2">
+            <a href="portfolio.html" id="link_style">Portafolio</a>
+          </li>
+          <li class="link_3"><a href="#" id="link_style">Contactos</a></li>
+
+          <li class="mail">
+            <a href="mailto:info@example.com" id="link_gray"
+              >info@example.com</a
+            >
+          </li>
+          <li class="tel">
+            
+            <a href="tel:+525555296000" id="link_gray">+55 5529 6000</a>
+          </li>
         </ul>
       </nav>
-      <div>
-        <ul id="links-top">
-          <li>
-            <a href="mailto:info@example.com" class="mail">info@example.com</a>
-          </li>
-          <li>
-            <!--quite la clase de aqui-->
-            <a href="tel:+525555296000" class="tel">+55 5529 6000</a>
-          </li>
-        </ul>
-      </div>
     </header>
   </body>
  
  
-  <main>
-<div class="buttons">
-    <button type="button">Todo</button>
-    <button type="button">Sitios.web</button>
-    <button type="button">Aplicaciones</button>
-    <button type="button">Diseño</button>
-    <button type="button">Marketing</button>
+  <main class="mom">
     
-</div>
-
-<section>
-    <div>
+  <section class="block1">
+    <div class=" bar_menu">
+      <button class="buttons_p" type="button"><strong>Todo</strong> </button>
+      <button class="buttons_p" type="button"><strong>Sitios.web </strong> </button>
+      <button class="buttons_p" type="button"> <strong>Aplicaciones</strong></button>
+      <button class="buttons_p" type="button"><strong>Diseño</strong></button>
+      <button class="buttons_p" type="button"><strong>Marketing</strong></button>
+    
+    </div>
+  </section>
+    <section class="block2">
+    <div class="images_p">
         <img
             src="images/imagen4.jpg"
-            width="100"
+    
             alt="laptop with profile pictures"
           />
           <dl>
-            <dt>Tecnoduck</dt>
-            <dd>Sitio-web</dd>
-          </dl>|
+            <dt class="dt_p">Tecnoduck</dt>
+            <dd class="dd_p">Sitio-web</dd>
+          </dl>
     </div>
-    <div>
+    <div class=class="images_p">
         <img
             src="images/imagen-12.jpg"
-            width="100"
+    
             alt="poster of 2 basketball players"
           />
           <dl>
-            <dt>Póster de Nueva Orleans vs Estrella Dorada</dt>
-            <dd>Diseño</dd>
-          </dl>|
+            <dt class="dt_p">Póster de Nueva Orleans vs Estrella Dorada</dt>
+            <dd class="dd_p">Diseño</dd>
+          </dl>
     </div>
-    <div>
+    <div class="images_p">
         <img
         src="images/imagen-5.jpg"
-        width="100"
+
         alt="logo of the seafood restaurant"
       />
       <dl>
-        <dt>Restaurante seafood</dt>
-        <dd>Aplicaciones</dd>
-      </dl>|
+        <dt class="dt_p">Restaurante seafood</dt>
+        <dd class="dd_p">Aplicaciones</dd>
+      </dl>
 </div>
-</section>
+</section >
 
-<section>
-    <div>
+<section class="block3">
+    <div class="images_p">
         <img
         src="images/imagen-6.jpg"
-        width="100"
+
         alt="black headphones"
       />
       <dl>
-        <dt>Proyecto Prime</dt>
-        <dd>Marketing</dd>
-      </dl>|
+        <dt class="dt_p">Proyecto Prime</dt>
+        <dd class="dd_p">Marketing</dd>
+      </dl>
     </div>
-    <div>
+    <div class="images_p">
         <img
         src="images/imagen-7.jpg"
-        width="100"
+        
         alt="two boxes"
       />
       <dl>
-        <dt>Proyecto Cajas</dt>
-        <dd>Aplicaciones</dd>
-      </dl>|
+        <dt class="dt_p">Proyecto Cajas</dt>
+        <dd class="dd_p">Aplicaciones</dd>
+      </dl>
     </div>
-    <div>
-        <img
+    <div class="images_p">
+        <img 
         src="images/imagen-8.jpg"
-        width="100"
+        
         alt="monitor"
       />
       <dl>
-        <dt>La inspiración no tiene límites</dt>
-        <dd>Sitio-web</dd>
-      </dl>|
+        <dt class="dt_p">La inspiración no tiene límites</dt>
+        <dd class="dd_p">Sitio-web</dd>
+      </dl>
     </div>
-</section>
+  </section>
 
-<section>
-    <div>
+  <section class="block4">
+    <div class="images_p">
         <img
         src="images/imagen-9.jpg"
-        width="100"
+        
         alt="openned book"
       />
       <dl>
-        <dt>Edición Limitada</dt>
-        <dd>Diseño</dd>
-      </dl>|
+        <dt class="dt_p">Edición Limitada</dt>
+        <dd class="dd_p">Diseño</dd>
+      </dl>
     </div>
-    <div>
+    <div class="images_p">
         <img
         src="images/imagen-10.jpg"
-        width="100"
         alt="card"
       />
-      <dl>
-        <dt>Proyecto Lab</dt>
-        <dd>Marketing</dd>
-      </dl>|
+      <dl>  
+        <dt class="dt_p">Proyecto Lab</dt>
+        <dd class="dd_p">Marketing</dd>
+      </dl>
     </div>
-    <div>
+    <div class="images_p">
         <img
         src="images/imagen-11.jpg"
-        width="100"
         alt="person typing in laptop"
       />
       <dl>
-        <dt>Negocio en Crecimiento</dt>
-        <dd>Aplicaciones</dd>
-      </dl>|
+        <dt class="dt_p">Negocio en Crecimiento</dt>
+        <dd class="dd_p">Aplicaciones</dd>
+      </dl>
     </div>
-</section>
+  </section>
 
   </main>
  
  
-  <footer id="footer">
-    <a class="title-2" style="font-family: Raleway" href="#">WebStudio</a>
+  <footer class="footer_p">
+    <section class="box">
+    <a class="title-2_1" style="font-family: Raleway" href="#">WebStudio</a>
 
-    <address id="address">
-      <div>Calz. Ticomán 500, Ciudad de México, CDMX, México</div>
-      <br />
-      <div class="mail2">
-        <a href="mailto:info@example.com">info@example.com</a>
-      </div>
-      <br />
-      <div><a class="tel2" href="tel:+525555296000">+55 5529 6000</a></div>
-      <br />
+    
+    <address class="address">
+  
+      <p class="add1">Calz. Ticomán 500, Ciudad <br>de México, CDMX, México</p>
+     <a class="link_gray" href="mailto:info@example.com">info@example.com</a>
+      <br>
+      <a class="link_gray" href="tel:+525555296000">+55 5529 6000</a></div>
+    
     </address>
+  </section>
   </footer>
 </body>
 </html>

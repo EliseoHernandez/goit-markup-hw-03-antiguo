@@ -11,165 +11,163 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+      <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
     />
   </head>
 
-  <body id="body">
+  <body class="container""> 
     <header id="header">
-      <nav>
-        <div>
+      <nav> 
+        <ul class="menu">
           <a class="title-1" style="font-family: Raleway" href="#">WebStudio</a>
-        </div>
 
-        <ul id="links-top">
-          <li><a href="#" class="link1">Estudio</a></li>
-          <li><a href="portfolio.html" class="link2">Portafolio</a></li>
-          <li><a href="#" class="link3">Contactos</a></li>
+          <li class="link_1"><a href="#" id="link_style">Estudio</a></li>
+          <li class="link_2">
+            <a href="portfolio.html" id="link_style">Portafolio</a>
+          </li>
+          <li class="link_3"><a href="#" id="link_style">Contactos</a></li>
+
+          <li class="mail">
+            <a href="mailto:info@example.com" id="link_gray"
+              >info@example.com</a
+            >
+          </li>
+          <li class="tel">
+            
+            <a href="tel:+525555296000" id="link_gray">+55 5529 6000</a>
+          </li>
         </ul>
       </nav>
-      <div>
-        <ul id="links-top">
-          <li>
-            <a href="mailto:info@example.com" class="mail">info@example.com</a>
-          </li>
-          <li>
-            <!--quite la clase de aqui-->
-            <a href="tel:+525555296000" class="tel">+55 5529 6000</a>
-          </li>
-        </ul>
-      </div>
     </header>
 
-    <main id="main">
-      <h1 class="main-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+    <main class="main">
+      <h1 class="main_title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
       <button class="main-button" type="button">
         Solicite nuestro servicio
       </button>
     </main>
 
-    <section id="first-section">
-      <div class="section-1.1">
+    <section class="first_section">
+      <ul class="section_1">
+        <li class="item">
         <h3>ATENCIÓN A LOS DETALLES</h3>
         <p>
           Nos adentramos en todos los detalles y procesos de su negocio, para
           así desarrollar una solución a su medida.
         </p>
-      </div>
-      <div class="section-1.2">
+      </li>
+      <li class="item">
         <h3>PUNTUALIDAD</h3>
         <p>
           Con nosotros, usted puede sentirse seguro y protegido. Un principio
           importante de la empresa: respetar su tiempo y respetar los plazos
           acordados.
         </p>
-      </div>
-      <div class="section-1.3">
+      </li>
+      <li class="item">
         <h3>PLANIFICACIÓN</h3>
         <p>
           Usted podrá observar y participar en cada fase del desarrollo y
           aplicación de soluciones.
         </p>
-      </div>
-      <div class="section-1.4">
+      </li>
+       <li class="item">
         <h3>TEGNOLOGÍA MODERNA</h3>
         <p>
           Usamos herramientas innovadoras para resolver las tareas asignadas. Es
           hora de simplificar los procesos laborales.
         </p>
-      </div>
+      </ul>
     </section>
 
-    <section id="second">
+    <section class="second_section">
       <h2>A qué nos dedicamos</h2>
-      <div class="section-2.1">
-        <img
+      <ul class="section_2_1">
+        <li class="item2">
+          <img
           src="images/image1.jpg"
-          width="100"
           alt="person typing in ketboard with a tablet and computer"
-        />
-      </div>
-      <div class="section-2.2">
+    
+           />
+        </li>
+          
+
+      
+      <li class="item2">
         <img
           src="images/image2.jpg"
-          width="100"
           alt="user with phone and laptop"
         />
-      </div>
-      <div class="section.2.3">
+      </li>
+      <li class="item2">
         <img
           src="images/image3.jpg"
-          width="100"
           alt="tablet with different colors"
         />
-      </div>
+      </li>
+      </ul>
     </section>
 
-    <section id="third">
+    <section class="third_section">
       <h2>Nuestro Equipo</h2>
-      <article>
-        <div class="section-3.1">
-          <img
+      <article class="section_3">
+        <div class="section_3_1">
+          <img class="img3"
             src="images/andres.jpg"
-            width="100"
             alt="andres profile
             picture"
           />
           <dl>
-            <dt>Andrés Cubo</dt>
-            <dd>Diseñador de Productos</dd>
+            <dt class="dest">Andrés Cubo</dt>
+            <dd class="desd">Diseñador de Productos</dd>
           </dl>
         </div>
-        <div class="section-3.2">
-          <img
+        <div class="section_3_1">
+          <img class="img3"
             src="images/carla.jpg"
-            width="100"
             alt="andres profile
             picture"
           />
           <dl>
-            <dt>Carla Palacios</dt>
-            <dd>Desarrolladora Frontend</dd>
+            <dt class="dest">Carla Palacios</dt>
+            <dd class="desd">Desarrolladora Frontend</dd>
           </dl>
         </div>
-        <div class="section-3.3">
-          <img
+        <div class="section_3_1">
+          <img class="img3"
             src="images/mario.jpg"
-            width="100"
             alt="andres profile
             picture"
           />
           <dl>
-            <dt>Mario Dorado</dt>
-            <dd>Marketing</dd>
+            <dt class="dest">Mario Dorado</dt>
+            <dd class="desd">Marketing</dd>
           </dl>
         </div>
-        <div class="section-3.4">
-          <img
+        <div class="section_3_1">
+          <img class="img3"
             src="images/pablo.jpg"
-            width="100"
             alt="andres profile
             picture"
           />
           <dl>
-            <dt>Pablo Mijangos</dt>
-            <dd>Diseñador IU</dd>
+            <dt class="dest">Pablo Mijangos</dt>
+            <dd class="desd">Diseñador IU</dd>
           </dl>
         </div>
       </article>
     </section>
 
-    <footer id="footer">
+    <footer class="footer">
       <a class="title-2" style="font-family: Raleway" href="#">WebStudio</a>
 
-      <address id="address">
-        <div>Calz. Ticomán 500, Ciudad de México, CDMX, México</div>
-        <br />
-        <div class="mail2">
-          <a href="mailto:info@example.com">info@example.com</a>
-        </div>
-        <br />
-        <div><a class="tel2" href="tel:+525555296000">+55 5529 6000</a></div>
-        <br />
+      <address class="address">
+        <p class="add1">Calz. Ticomán 500, Ciudad <br>de México, CDMX, México</p>
+        <a class="link_gray" href="mailto:info@example.com">info@example.com</a>
+        <br>
+        <a class="link_gray" href="tel:+525555296000">+55 5529 6000</a></div>
       </address>
     </footer>
   </body>
